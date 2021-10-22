@@ -10,6 +10,51 @@ html{
     font-family: 'Rubik', sans-serif;
 }
 
+nav{
+    top: 0%;
+    right: 0%;
+    line-height: 3em;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+   
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.float-s{
+    float: left;
+}
+
+.float-d{
+    float: right;
+}
+
+/* inizio colonna */
+
+.col-s .col-d{
+    height: 50px;
+    width: 30%;
+
+}
+
+.block{
+    display: block;
+}
+
 .inline-block{
     display: inline-block;
 }
@@ -21,9 +66,42 @@ html{
 
 .menu-inline li{
     display: inline-block;
-
+    padding: 2em;
+    line-height: 1em;
 }
+
+.menu-inline li :hover{
+    padding-bottom: 1em;
+    border-bottom: 2px solid black;
+}
+
+
 
 li a{
     text-decoration: none;
+    color: black;
+}
+
+.btn{
+    display:inline-block;
+    color: white;
+    background-color: lightskyblue;
+    padding: 5px;
+    margin-right: 6em;
+    text-decoration: none;
+}
+
+#header{
+    height: 100vh;
+    width: auto;
+    background-color:#AEC9DF ;
+}
+
+.title-jambo{
+    height: 20px;
+    width: 80%;
+    margin: auto;
+    padding-top: 10%;
+    background-color: tomato;
+    text-align: center;
 }
