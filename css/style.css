@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.menu-inline{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.menu-inline li{
+    display: inline-block;
+
+}
+
+li a{
+    text-decoration: none;
+}
