@@ -25,8 +25,20 @@ nav{
     font-size: 5em;
 }
 
+.padding-top{
+    padding-top: 2em;
+}
+
+.padding-right-1 {
+    padding-right: 1em;
+}
+
 .width-30{
     width: 30%;
+}
+
+.width-40{
+    width: 40%;
 }
 
 .width-50{
@@ -45,6 +57,10 @@ nav{
     height: 15em;
 }
 
+.height-60{
+    height: 60em;
+}
+
 .marg-top{
     margin-top: 2em;
 }
@@ -59,6 +75,14 @@ nav{
 
 .marg-right{
     margin-right: 1em;
+}
+
+.marg-right-3{
+    margin-right: 3em;
+}
+
+.marg-left{
+    margin-left: 2em;
 }
 
 .marg-top-main{
@@ -86,12 +110,14 @@ nav{
 .float-s{
     float: left;
     /* border: 1px solid black; */
-    height: 100%;
+    /* height: 100%; */
 }
 
 .float-d{
     float: right;
 }
+
+/* colori */
 
 .light-grey{
     color: lightgrey;
@@ -100,11 +126,29 @@ nav{
 .light-blue{
     color: #3280FF;
 }
+
+.light-azzu{
+    background-color: #0093CE;
+}
+
+.dark-red{
+    background-color: #61082B;
+}
+.red{
+    background-color: red;
+}
+
+.light-green{
+    background-color: #A2D39B;
+}
 /* inizio colonna */
 
 .col-s, .col-d{
     height: 50px;
-    width: 30%;
+    /* width: 30%; */
+    width: calc(100% / 2 - 20%);
+    padding-left:  1em;
+
 }
 
 .block{
@@ -185,7 +229,7 @@ button.btn:focus {
 
 .paragrafo{
     margin-bottom: 2em;
-    line-height: 1.5em;
+    line-height: 2em;
 }
 
 .arrow{
@@ -197,7 +241,7 @@ button.btn:focus {
 
 .container-main{
     width: 100%;
-    /* border: 2px solid black; */
+    border: 2px solid black;
     text-align: center;
 }
 
@@ -206,16 +250,11 @@ button.btn:focus {
 }
 .container-s{
     width: calc(100% / 3 - 2em);
-    border: 1px solid #E9E9EA;
-    height: 60em;
 }
 .container-c{
     width: calc(100% / 3 - 2em);
-    /* border: 1px solid b#E9E9EA; */
-    border: 1px solid black;
     margin-left: 3em;
     margin-right: 3em;
-    height: 60em;
 }
 
 .menu-main{
@@ -230,9 +269,13 @@ button.btn:focus {
     margin-bottom: 2em;
 }
 
-.align-left{
+.align-marg{
     text-align: left;
     margin-left: 3em;
+}
+
+.align-left{
+    text-align: left;
 }
 
 .align-center{
@@ -253,4 +296,30 @@ button.btn:focus {
     object-fit: contain;
     text-align: center;
     max-width: 100%;
+    max-height: auto;
+}
+
+
+#btn-main{
+    background-color: white;
+    color: black;
+}
+
+
+.container-4{
+    width: calc(100% / 4 - -5em);
+    /* background-color: chartreuse; */
+    height: 18em;
+    
+}
+
+.img-s{
+    background-size: cover;
+    /* object-fit: contain; */
+    text-align: center;
+    max-width: 50%;
+    max-height: auto;
+    top: 35%;
+    left: 25%;
+    filter: brightness(0) invert(1);
 }
