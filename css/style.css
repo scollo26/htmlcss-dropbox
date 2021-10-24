@@ -21,6 +21,8 @@ nav{
    
 }
 
+/* grandezze */
+
 .title{
     font-size: 5em;
 }
@@ -31,6 +33,10 @@ nav{
 
 .padding-right-1 {
     padding-right: 1em;
+}
+
+.padding-right-4 {
+    padding-right: 4em;
 }
 
 .width-30{
@@ -61,6 +67,14 @@ nav{
     height: 60em;
 }
 
+.marg-top-main{
+    margin-top: 6em;
+}
+
+.marg-top-1{
+    margin-top: 1em;
+}
+
 .marg-top{
     margin-top: 2em;
 }
@@ -85,14 +99,16 @@ nav{
     margin-left: 2em;
 }
 
-.marg-top-main{
-    margin-top: 6em;
-}
+
+/* font-size */
 
 .font-size, .arrow{
     font-size: 2em;
      color: black;
 }
+
+/* Position */
+
 .clearfix::after{
     content: '';
     display: table;
@@ -109,13 +125,24 @@ nav{
 
 .float-s{
     float: left;
-    /* border: 1px solid black; */
-    /* height: 100%; */
 }
 
 .float-d{
     float: right;
 }
+
+.overflow{
+    overflow: auto;
+}
+
+.block{
+    display: block;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
 
 /* colori */
 
@@ -127,8 +154,16 @@ nav{
     color: #3280FF;
 }
 
+.color-dark-red{
+    color: #61082B;
+}
+
 .light-azzu{
     background-color: #0093CE;
+}
+
+.color-header{
+    background-color:#AEC9DF;
 }
 
 .dark-red{
@@ -141,6 +176,12 @@ nav{
 .light-green{
     background-color: #A2D39B;
 }
+
+.beige{
+    background-color: #F5F5F5;
+}
+
+
 /* inizio colonna */
 
 .col-s, .col-d{
@@ -151,13 +192,6 @@ nav{
 
 }
 
-.block{
-    display: block;
-}
-
-.inline-block{
-    display: inline-block;
-}
 
 .menu-inline{
     display: inline-block;
@@ -182,6 +216,8 @@ li a{
     color: black;
 }
 
+/* bottone */
+
 button.btn {
     display: inline-block;
     text-decoration: none;
@@ -200,6 +236,8 @@ button.btn:focus {
   text-decoration: none;
 }
 
+/* inizio-header */
+
 #header{
     height: 45em;
     width: auto;
@@ -216,9 +254,7 @@ button.btn:focus {
     height: auto;
     width: 60%;
     margin:  0 auto;
-    padding-top: 5%;
-    text-align: left;
-    
+    padding-top: 5%;  
 }
 
 .ridime-img{
@@ -229,7 +265,7 @@ button.btn:focus {
 
 .paragrafo{
     margin-bottom: 2em;
-    line-height: 2em;
+    line-height: 1.5em;
 }
 
 .arrow{
@@ -241,7 +277,7 @@ button.btn:focus {
 
 .container-main{
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     text-align: center;
 }
 
@@ -305,9 +341,13 @@ button.btn:focus {
     color: black;
 }
 
+#border-no{
+    border: 0%;
+}
+
 
 .container-4{
-    width: calc(100% / 4 - -5em);
+    width: calc(100% / 4 - -10em);
     /* background-color: chartreuse; */
     height: 18em;
     
@@ -323,3 +363,11 @@ button.btn:focus {
     left: 25%;
     filter: brightness(0) invert(1);
 }
+
+.img-designit{
+    background-size: cover;
+    max-width: 30%;
+    top: 35%;
+    left: -5%;
+}
+
