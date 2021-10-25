@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Rubik:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -18,7 +21,10 @@
         <section >
             <nav class="clearfix">
                 <div class="col-s float-s">
-                    <a href=""><img class="" src="img/logo-small.png" alt=""></a>
+                    <div class="inline-block vertical-sub">
+                        <a href=""><img class=" " src="img/logo-small.png" alt=""></a>
+                    </div>
+                    
                     <ul class="menu-inline">
                         <li><a href=""> Perche Dropbox?</a> </li>
                         <li><a href=""> Funzioni</a></li>
@@ -90,7 +96,7 @@
                             <!-- bottone -->
                             <button class="btn btn-white">Prova gratis per 30 giorni</button>
                             <div class="marg-top marg-bottom align-marg">
-                                oppure <a href="#">acquista ora</a>
+                                <span class="bordo-bottom inline-block padding-bottom-2">oppure</span>  <a href="#">acquista ora</a>
                             </div>
                             <h3 class="marg-bottom align-marg">Punti salienti del piano</h3>
                             <ul class="menu-main">
@@ -119,7 +125,7 @@
                                 <!-- bottone -->
                                 <button class="btn btn-white">Prova gratis per 30 giorni</button>
                                 <div class="marg-top marg-bottom align-marg">
-                                    oppure <a href="#">acquista ora</a>
+                                    <span class="bordo-bottom inline-block padding-bottom-2">oppure</span>  <a href="#">acquista ora</a>
                                 </div>
                                 <h3 class="marg-bottom align-marg">Punti salienti del piano</h3>
                                 <ul class="menu-main">
@@ -149,7 +155,7 @@
                                 <!-- bottone -->
                                 <button class="btn btn-white">Prova gratis per 30 giorni</button>
                                 <div class="marg-top marg-bottom align-marg">
-                                    oppure <a href="#">acquista ora</a>
+                                    <span class="bordo-bottom inline-block padding-bottom-2">oppure</span>  <a href="#">acquista ora</a>
                                 </div>
                                 <h3 class="marg-bottom align-marg">Punti salienti del piano</h3>
                                 <ul class="menu-main">
@@ -335,8 +341,12 @@
             <!-- container-domande -->
 
             <div class="marg-top clearfix width-100 bordo-domande padding-domande" >
-                <div class=" float-s">
+                <div class=" float-s zoom ">
                     <h3 class=" inline-block">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h3>
+
+                    <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, at, iure minus doloribus ipsum perferendis tempore molestias hic natus minima cumque quam veniam necessitatibus fuga harum doloremque a ad. Accusantium?</span>
+                       
+        
                 </div>
                 <div class="float-d">
                     <span><i class="fas fa-chevron-down"></i></span>
@@ -379,7 +389,7 @@
     </main>
 <!-- inizio-footer -->
     <footer class="marg-top-main clearfix">
-        <div class="col-footer float-s marg-left">
+        <div class="col-footer float-s marg-left-10">
             <ul class="ul-footer">
                 <li class="size">Dropbox</li>
                 <li><a href="http://">Applicazioni desktop</a></li>
@@ -391,7 +401,7 @@
         </div>
         <div class="col-footer float-s">
             <ul class="ul-footer">
-                <li class="size">Dropbox</li>
+                <li class="size">Prodotti</li>
                 <li><a href="http://">Applicazioni desktop</a></li>
                 <li><a href="http://">Perchè Dropbox</a></li>
                 <li><a href="http://">Piani</a></li>
@@ -402,7 +412,7 @@
 
         <div class="col-footer float-s">
             <ul class="ul-footer">
-                <li class="size">Dropbox</li>
+                <li class="size">Azienda</li>
                 <li><a href="http://">Applicazioni desktop</a></li>
                 <li><a href="http://">Perchè Dropbox</a></li>
                 <li><a href="http://">Piani</a></li>
@@ -412,7 +422,7 @@
         </div>
         <div class="col-footer float-s">
             <ul class="ul-footer">
-                <li class="size">Dropbox</li>
+                <li class="size">Supporto</li>
                 <li><a href="http://">Applicazioni desktop</a></li>
                 <li><a href="http://">Perchè Dropbox</a></li>
                 <li><a href="http://">Piani</a></li>
@@ -420,21 +430,20 @@
                 <li><a href="http://">Funzioni</a></li>
             </ul>
         </div>
-        <div class="col-footer float-s">
+        <div class="col-footer float-s marg-right-3">
             <ul class="ul-footer">
-                <li class="size">Dropbox</li>
+                <li class="size">Community</li>
                 <li><a href="http://">Applicazioni desktop</a></li>
                 <li><a href="http://">Perchè Dropbox</a></li>
                 <li><a href="http://">Piani</a></li>
-                <li><a href="http://">Sicurezza</a></li>
-                <li><a href="http://">Funzioni</a></li>
             </ul>
         </div>
-        <div class="float-s col-footer">
-            <span><i class="fas fa-globe-americas"></i>italiano</span>
+        <div class="float-s inline-block marg-top-main padding-top marg-left-10 bordo-footer marg-bottom grey">
+            <span class="invert"><i class="fas fa-globe-americas"></i></span>
+            <span class="inline-block align-center marg-right-3">italiano<i class="marg-left-03 fas fa-sort-up vertical-sub "></i></span>    
         </div>
-
     </footer>
+    
     
 </body>
 </html>
