@@ -27,6 +27,11 @@ nav{
 .title{
     font-size: 5em;
 }
+
+.padding{
+    padding: 1em;
+}
+
 .padding-domande{
     padding: 2em 3em 2em 0;
 }
@@ -45,6 +50,10 @@ nav{
 
 .padding-bottom-2{
     padding-bottom: 2em;
+}
+
+.padding-left-4{
+    padding-left: 4em;
 }
 
 .width-30{
@@ -218,9 +227,8 @@ nav{
 
 .col-s, .col-d{
     height: 50px;
-    /* width: 30%; */
-    width: calc(100% / 2 - 20%);
     padding-left:  1em;
+
 
 }
 
@@ -389,20 +397,19 @@ button.btn:focus {
 }
 
 .container-4{
-    width: calc(100% / 4 - -10em);
+    width: 50%;
     height: 16em; 
 }
 
 
 .container-inside{
-    width: calc(100% / 4 - -14em);
-    height: 14em; 
+    width: 90%;
+    height: 90%;
     
 }
 
 .img-s{
     background-size: cover;
-    /* object-fit: contain; */
     text-align: center;
     max-width: 50%;
     max-height: auto;
@@ -418,19 +425,22 @@ button.btn:focus {
     left: -5%;
 }
 
+.invert{
+    filter: invert(1);
+}
+
+
 
 /* footer */
 
 footer{
     width: 100%;
-    /* height: 500px; */
     background-color: black;
 }
 
 .col-footer{
     width: calc(100% / 5 - 3em);
     margin-top: 4em;
-    /* margin-right: 3em; */
     height: 16em;
 }
 
@@ -454,24 +464,27 @@ footer{
     font-family: 'Rubik', sans-serif;
 }
 
-.invert{
-    filter: invert(1);
-}
 
 
 
 /* hover */
 
-
-
-.zoom {
-    /* padding: 50px; */
-    /* background-color: green; */
-    transition: transform .2s;
-    width: auto;
-
+  .cambio1:hover h3, #freccia{
+      display: block;
   }
 
-  .zoom :hover {
-    transform: scale(1.2); 
+  .cambio1:hover .descrizione,
+  #freccia2{
+      display: block;
+  }
+
+  .descrizione, #freccia2{
+      display: none;
+  }
+  
+
+
+  .position-domanda{
+      top: 0%;
+      left: 0%;
   }
