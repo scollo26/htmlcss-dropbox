@@ -56,6 +56,9 @@ nav{
     padding-left: 4em;
 }
 
+.widht-10{
+    width: 10%;
+}
 .width-30{
     width: 30%;
 }
@@ -70,6 +73,10 @@ nav{
 
 .width-70{
     width: 70%;
+}
+
+.width-88{
+    width: 88%;
 }
 
 .widht-100{
@@ -314,13 +321,14 @@ button.btn:focus {
     color: black;
 }
 
-.bordo-domande{
-    border-top: 1px solid #E9E9EA;
-    border-bottom: 1px solid #E9E9EA;
-}
+/* bordo */
 
 .bordo-footer{
     border-top: 1px solid white;
+}
+
+.bordo-top{
+    border-bottom: 1px solid lightgrey;
 }
 
 .bordo-bottom{
@@ -377,6 +385,9 @@ button.btn:focus {
     margin-right: 3em;
 }
 
+.align-top{
+    vertical-align: top;
+}
 
 .menu-main .fa-check{
     color: #3280FF;
@@ -464,6 +475,10 @@ footer{
     font-family: 'Rubik', sans-serif;
 }
 
+.ul-footer li :hover{
+    border-bottom: 1px solid white;
+}
+
 
 
 
@@ -484,7 +499,4 @@ footer{
   
 
 
-  .position-domanda{
-      top: 0%;
-      left: 0%;
-  }
+  
