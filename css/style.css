@@ -488,9 +488,6 @@ footer{
 
 /* hover-domande frequenti */
 
-  .cambio1:hover h3{
-      display: block;
-  }
 
   .cambio1:hover .descrizione
   {
@@ -504,7 +501,7 @@ footer{
 
   .cambio1:hover .freccia-b{
       visibility: collapse;
-      display: block;
+      display: table;
   }
 
   .freccia-a{
@@ -513,4 +510,9 @@ footer{
   
   .cambio1:hover .freccia-a{
       visibility: visible;
+      margin-left: 300px;
+  }
+
+  .margin-left-300{
+      margin-left: 300px;
   }
