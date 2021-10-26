@@ -91,6 +91,8 @@ nav{
     height: 60em;
 }
 
+/* margini */
+
 .marg-top-main{
     margin-top: 6em;
 }
@@ -152,7 +154,6 @@ nav{
 
 .relative{
     position: relative;
-    /* top: 6em; */
 }
 
 
@@ -184,7 +185,7 @@ nav{
     vertical-align: sub;
 }
 
-/* colori */
+/* color */
 
 .light-grey{
     color: lightgrey;
@@ -235,8 +236,6 @@ nav{
 .col-s, .col-d{
     height: 50px;
     padding-left:  1em;
-
-
 }
 
 
@@ -272,6 +271,7 @@ button.btn {
     line-height: 2em;
     background-color: #0061FF;
   }
+
 button.btn-white {
     color: white;
   }
@@ -286,8 +286,6 @@ button.btn:focus {
 /* inizio-header */
 
 #header{
-    /* height: 45em; */
-
     width: auto;
     background-color:#AEC9DF ;
 }
@@ -334,6 +332,9 @@ button.btn:focus {
 .bordo-bottom{
     border-bottom: 1px solid lightgrey;
 }
+.bordo{
+    border: 1px solid #E9E9EA;
+}
 
 /* inizio-main */
 
@@ -342,9 +343,8 @@ button.btn:focus {
     text-align: center;
 }
 
-.bordo{
-    border: 1px solid #E9E9EA;
-}
+/* 3-container */
+
 .container-s{
     width: calc(100% / 3 - 2em);
 }
@@ -393,7 +393,9 @@ button.btn:focus {
     color: #3280FF;
 }
 
-.img{
+/* conteiner-6-float */
+
+.img-opera{
     background-size: cover;
     object-fit: contain;
     text-align: center;
@@ -406,6 +408,8 @@ button.btn:focus {
     background-color: white;
     color: black;
 }
+
+/* 4-container */
 
 .container-4{
     width: 50%;
@@ -482,21 +486,31 @@ footer{
 
 
 
-/* hover */
+/* hover-domande frequenti */
 
-  .cambio1:hover h3, #freccia{
+  .cambio1:hover h3{
       display: block;
   }
 
-  .cambio1:hover .descrizione,
-  #freccia2{
+  .cambio1:hover .descrizione
+  {
       display: block;
   }
 
-  .descrizione, #freccia2{
+  .descrizione{
       display: none;
   }
   
 
+  .cambio1:hover .freccia-b{
+      visibility: collapse;
+      display: block;
+  }
 
+  .freccia-a{
+      visibility: hidden;
+  }
   
+  .cambio1:hover .freccia-a{
+      visibility: visible;
+  }
