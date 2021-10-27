@@ -88,7 +88,7 @@ nav{
 }
 
 .height-60{
-    height: 60em;
+    min-height: 60em;
 }
 
 /* margini */
@@ -389,6 +389,9 @@ button.btn:focus {
     vertical-align: top;
 }
 
+.align-center{
+    text-align: center;
+}
 .menu-main .fa-check{
     color: #3280FF;
 }
@@ -440,11 +443,9 @@ button.btn:focus {
     left: -5%;
 }
 
-.invert{
-    filter: invert(1);
+.transform{
+    transform: translate(-0%, 50%);
 }
-
-
 
 /* footer */
 
